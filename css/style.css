@@ -1,0 +1,27 @@
+header, .contact {
+  color: #fff;
+  background: green;
+  height: 100vh;
+}
+
+header button, .contact button {
+  background: #0e0681;
+}
+
+header button:hover, .contact button:hover {
+  background: red;
+}
+
+header button::after, .contact button::after {
+  content: 'hello';
+}
+
+header p, .contact p {
+  color: #000;
+}
+
+.contact {
+  background: #4141aa;
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */
